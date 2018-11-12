@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Front-end course</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <!-- normalize.css -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-tertiary">
+    <div class="row justify-center p-t">
+      <div class="card standard-border card-narrow shadow">
+        <div class="info">
+          <div>Clicks</div>
+
+          <div class="m-t">
+            <span class="info-key">Max Value:</span
+            ><span class="text-accent" id="click-max-value">0</span>
+          </div>
+
+          <div class="m-t">
+            <span class="info-key">clicks:</span><span class="text-accent" id="click-value">0</span>
+          </div>
+
+          <div class="m-t">
+            <span class="info-key">clicks left:</span
+            ><span class="text-accent" id="click-left">0</span>
+          </div>
+
+          <div class="m-t">
+            <span class="info-key">step:</span
+            ><span class="text-accent" id="click-step-value">1</span>
+          </div>
+        </div>
+
+        <button id="click-btn" class="btn-primary m-t">Click</button>
+        <button id="click-reset" class="btn-primary m-t">Reset</button>
+        <button id="click-step" class="btn-primary m-t">Increase Step</button>
+        <button id="click-max-btn" class="btn-primary m-t">Increase Max</button>
+      </div>
+    </div>
+  </body>
+</html>
